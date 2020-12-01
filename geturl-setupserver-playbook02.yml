@@ -12,6 +12,7 @@
 
     - name: password
       prompt: What is your password?
+      private: yes
 
   tasks:
   - name: Install apache2 server and ensure pip is installed
